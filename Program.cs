@@ -8,7 +8,7 @@ if (!isXDouble)
     Console.WriteLine("Введеное значение не является числом.");
     Console.ReadLine();
 } 
-double result = (Math.Sin(x) - Math.Cos(x)) / 5;
+double result = Math.Round((Math.Sin(x) - Math.Cos(x)) / 5, 5);
 
 Console.WriteLine($"Результат выполнения функции: {result}");
 Console.ReadLine();
